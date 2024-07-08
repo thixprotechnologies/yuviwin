@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[303],{4303:(e,n,u)=>{u.r(n),u.d(n,{default:()=>l});var r=u(821),t={style:{color:"aliceblue"}};const c={},l=(0,u(3744).Z)(c,[["render",function(e,n){return(0,r.wg)(),(0,r.iD)("p",t,"404 Page not found")}]])}}]);

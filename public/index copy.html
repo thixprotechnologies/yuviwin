@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Client</title>
+    <!-- Include socket.io client library -->
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>WebSocket Client</h1>
+    <p>Connecting to WebSocket server...</p>
+
+    <script>
+        // Replace 'ws.example.com' with your subdomain
+        const socket = io('https://yuviwin.com:3000');
+
+        socket.on('connect', () => {
+            console.log('WebSocket connection established.');
+        });
+
+        socket.on('message', (data) => {
+            console.log('Message received:', data);
+            // Handle received messages here
+        });
+
+        socket.on('disconnect', () => {
+            console.log('WebSocket connection closed.');
+        });
+
+        socket.on('error', (error) => {
+            console.error('WebSocket error:', error);
+        });
+    </script>
+</body>
+</html>
