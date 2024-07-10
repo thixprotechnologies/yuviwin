@@ -64,7 +64,7 @@ function _asyncToGenerator(n) { return function () { var t = this, e = arguments
     // console.log(this.yticksline);
     this.crashwidth = jquery__WEBPACK_IMPORTED_MODULE_1___default()('#jetbox').width();
     this.crashheight = jquery__WEBPACK_IMPORTED_MODULE_1___default()('#jetbox').height();
-    this.socket = (0,socket_io_client__WEBPACK_IMPORTED_MODULE_0__.io)('wss://yuviwin.com:3000', {
+    this.socket = (0,socket_io_client__WEBPACK_IMPORTED_MODULE_0__.io)('https://socket.thixpro.com', {
       reconnect: true,
       // Allow reconnection
       transports: ['websocket'],

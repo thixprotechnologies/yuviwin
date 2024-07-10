@@ -429,7 +429,7 @@ export default {
         // console.log(this.yticksline);
         this.crashwidth = $('#jetbox').width();
         this.crashheight = $('#jetbox').height();
-        this.socket = io('wss://yuviwin.com:3000', {
+        this.socket = io('https://socket.thixpro.com', {
             reconnect: true, // Allow reconnection
             transports: ['websocket'],
             upgrade: true,
