@@ -61,13 +61,13 @@
                     <div class="col-6 game-img">
                         <router-link :to="{ name: 'Circle' }"><img src="../assets/img/game4.png"></router-link>
                     </div>
-                    <!-- <div class="col-6 game-img">
-                        <router-link :to="{ name: 'JetGame' }"><img src="../assets/img/game2.png"></router-link>
-                    </div> -->
-
                     <div class="col-6 game-img">
-                        <router-link onclick="alert('Comming Soon')"><img src="../assets/img/game2.png"></router-link>
+                        <router-link :to="{ name: 'JetGame' }"><img src="../assets/img/game2.png"></router-link>
                     </div>
+
+                    <!-- <div class="col-6 game-img">
+                        <router-link onclick="alert('Comming Soon')"><img src="../assets/img/game2.png"></router-link>
+                    </div> -->
                 </div>
             </div>
             <!-- End game icon design -->
